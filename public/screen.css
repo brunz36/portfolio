@@ -4,8 +4,6 @@ body {
   background-color: #444;
   max-width: 1200px;
   margin: auto;
-  display: flex;
-  flex-direction: column;
 }
 
 main {
@@ -20,26 +18,29 @@ main {
 .hello {
   display: flex;
   padding: 5em;
+  flex-wrap: wrap;
+  order: 1;
 }
 
 .hello-img {
   padding: 2em 2em 0 0;
+  flex: 1;
 }
 
 .hello-block {
-  flex: 2 2 100%;
-  opacity: 0.7;
+  flex: 4;
 }
 
 .hello-img img {
-  border-radius: 1em;
+  border-radius: 0.5em;
   width: 160px;
   height: 160px;
   flex: 1 1 50%;
 }
 
 .hello-block blockquote {
-  background-color: #bbb;
+  opacity: 0.7;
+  background-color: #fff;
   border-radius: 0.5em;
   justify-content: flex-start;
   padding: 1em;
@@ -60,28 +61,99 @@ main {
 
 .sites {
   display: flex;
-  justify-content: space-around;
-  background-color: hsla(0, 0%,0%, 0.6);
+  background-color: hsla(0, 0%, 0%, 0.6);
+  flex-wrap: wrap;
+  order: 2;
 }
 
 .sites img {
-
-  padding: 2em;
-  flex: 1;
+  padding: 1em;
+  flex: 1 1 1%;
 }
 
 .box1 {
-  border: 5px solid red;
+  display: flex;
+  flex-direction: column;
+  background-color: #fffefe;
+  border-radius: 1em;
+  margin: 1em;
+  position: relative;
+  order: 3;
+}
+
+.box1 img {
+  border-radius: 0.5em 0.5em 0 0;
+}
+
+.box1 p {
+  margin: 1em;
+  font-size: 80%;
+  color: #777;
+}
+
+.box-blue {
+  position: relative;
+  left: 50em;
+  top: 2em;
+  width: 10em;
+  border: 1px solid red;
+  /*justify-content: flex-end;*/
+}
+
+.box-blue h3 {
+  border-radius: 5px;
+  background-color: #3a7dd4;
+  font-size: 80%;
+  color: #fff;
+  text-align: center;
+  padding: 0.8em;
+  border: 2px solid red;
+  margin: 0;
+}
+
+.bold-box {
+  font-size: 125%;
+  font-weight: bold;
+  color: #444;
 }
 
 .box2 {
-  border: 5px solid red;
+  display: flex;
+  flex-direction: column;
+  background-color: #fffefe;
+  border-radius: 1em;
+  margin: 1em;
+  order: 4;
+}
+
+.box2 img {
+  border-radius: 0.5em 0.5em 0 0;
+}
+
+.box2 p {
+  margin: 1em;
+  font-size: 80%;
+  color: #777;
 }
 
 .twitter {
-  border: 5px solid red;
+  display: flex;
+  flex-direction: column;
+  order: 5;
+}
+
+.twitter h2 {
+  color: #fff;
+  align-self: center;
+}
+
+.twitter-row {
+  align-self: center;
 }
 
 footer {
-  border: 5px solid red;
+  color: #aaa;
+  padding: 2em;
+  text-align: center;
+  order: 6;
 }
