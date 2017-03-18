@@ -19,7 +19,6 @@ main {
   display: flex;
   padding: 5em;
   flex-wrap: wrap;
-  order: 1;
 }
 
 .hello-img {
@@ -63,7 +62,6 @@ main {
   display: flex;
   background-color: hsla(0, 0%, 0%, 0.6);
   flex-wrap: wrap;
-  order: 2;
 }
 
 .sites img {
@@ -75,10 +73,8 @@ main {
   display: flex;
   flex-direction: column;
   background-color: #fffefe;
-  border-radius: 1em;
+  border-radius: 0.5em;
   margin: 1em;
-  position: relative;
-  order: 3;
 }
 
 .box1 img {
@@ -92,22 +88,18 @@ main {
 }
 
 .box-blue {
-  position: relative;
-  left: 50em;
-  top: 2em;
-  width: 10em;
-  border: 1px solid red;
-  /*justify-content: flex-end;*/
+  align-self: flex-end;
+  width: 8em;
+  padding: 0 1em 0 0;
 }
 
 .box-blue h3 {
-  border-radius: 5px;
+  border-radius: 0.5em;
   background-color: #3a7dd4;
   font-size: 80%;
   color: #fff;
   text-align: center;
   padding: 0.8em;
-  border: 2px solid red;
   margin: 0;
 }
 
@@ -121,9 +113,8 @@ main {
   display: flex;
   flex-direction: column;
   background-color: #fffefe;
-  border-radius: 1em;
+  border-radius: 0.5em;
   margin: 1em;
-  order: 4;
 }
 
 .box2 img {
@@ -139,7 +130,6 @@ main {
 .twitter {
   display: flex;
   flex-direction: column;
-  order: 5;
 }
 
 .twitter h2 {
@@ -155,5 +145,4 @@ footer {
   color: #aaa;
   padding: 2em;
   text-align: center;
-  order: 6;
 }
