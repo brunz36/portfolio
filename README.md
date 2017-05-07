@@ -12,6 +12,7 @@
   - Responsive Web Design
   - CSS Tricks
   - Flexbox
+  - Deploy to the Web
 
 ## DEMO
 ![](https://raw.githubusercontent.com/brunz36/portfolio/master/docs/portfolio.gif)
