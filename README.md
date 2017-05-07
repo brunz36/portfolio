@@ -14,4 +14,4 @@
   - Flexbox
 
 ## DEMO
-![](https://raw.githubusercontent.com/brunz36/octodex/master/docs/octodex.gif)
+![](https://raw.githubusercontent.com/brunz36/portfolio/master/docs/portfolio.gif)
